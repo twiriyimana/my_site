@@ -2,8 +2,11 @@ import React from 'react'
 import { BrowserRouter, Routes,Route } from 'react-router-dom'
 import { Toaster } from 'react-hot-toast'
 import Home from './Pages/Home'
-import Header from './Pages/header'
-import Contact from './Pages/contact'
+// @ts-ignore
+import Header from './Pages/Header'
+// @ts-ignore
+import Contact from './Pages/Contact'
+// @ts-ignore
 import Heads from './Pages/Heads'
 
 
