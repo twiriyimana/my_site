@@ -1,10 +1,9 @@
-import React from 'react';
-import Heads from './Heads';
+import Heads from "./Heads";
 
-function Contact() {
-  return (
-    <>
-    <Heads/>
+export default function ContactPage(){
+    return (
+        <>
+         <Heads/>
     <div className="max-w-5xl mx-auto px-4 py-10">
       <div className="flex flex-col md:flex-row gap-8">
         {/* Contact Info */}
@@ -62,7 +61,5 @@ function Contact() {
       </div>
     </div>
     </>
-  );
+    )
 }
-
-export default Contact;
