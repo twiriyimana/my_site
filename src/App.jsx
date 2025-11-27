@@ -5,7 +5,7 @@ import Home from './Pages/Home'
 // @ts-ignore
 import Header from './Pages/Header'
 // @ts-ignore
-import Contact from "./Pages/Contact"
+// import Contact from "./Pages/Contact"
 // @ts-ignore
 import Heads from './Pages/Heads'
 
@@ -19,7 +19,7 @@ function App() {
     <Routes>
   <Route path=''element={<Home/>}/>
   <Route path='/about'element={<Header/>}/>
-  <Route path='/contact'element={<Contact/>}/>
+  {/* <Route path='/contact'element={<Contact/>}/> */}
   <Route path='/head'element={<Heads/>}/>
 
     </Routes>
